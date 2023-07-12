@@ -18,13 +18,13 @@ from multiproject.utils import get_project
 
 sys.path.append(os.path.abspath("_ext"))
 extensions = [
+    "sphinx_docsearch",
     "hoverxref.extension",
     "multiproject",
     "myst_parser",
     "notfound.extension",
     "sphinx_copybutton",
     "sphinx_design",
-    "sphinx_search.extension",
     "sphinx_tabs.tabs",
     "sphinx-prompt",
     "sphinx.ext.autodoc",
@@ -36,6 +36,10 @@ extensions = [
     "sphinxemoji.sphinxemoji",
     "sphinxext.opengraph",
 ]
+
+docsearch_app_id = "A2J01VNM3V"
+docsearch_api_key = "c6abc004aa198429ba93e58792570fa5"
+docsearch_index_name = "crawler_RTD"
 
 multiproject_projects = {
     "user": {
