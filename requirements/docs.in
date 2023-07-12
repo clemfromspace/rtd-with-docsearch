@@ -19,6 +19,7 @@ sphinx-prompt
 sphinx-autobuild
 sphinxext-opengraph
 sphinx-copybutton
+sphinx_docsearch
 
 # Markdown
 myst_parser
